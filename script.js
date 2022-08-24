@@ -253,12 +253,12 @@ class giphy_object {
 
     _switched() {
         const link = stylesheet.getAttribute('href');
-        if (link === 'CSS/style.css') {
+        if (link === 'style.css') {
             console.log('this is link1');
-            this._switcher('CSS/dark.css')
+            this._switcher('dark.css')
         } else {
             console.log('this is link2');
-            this._switcher('CSS/style.css')
+            this._switcher('style.css')
         }
     }
 
